@@ -3,8 +3,8 @@ Pipeline{
   stages {
     stage("run script"){
       steps{
-        sh 'chmod +x ./hello.sh'
-        sh './hello.sh'
+        sh 'chmod +x ./simple.sh'
+        sh './simple.sh'
       }
     }
   }
